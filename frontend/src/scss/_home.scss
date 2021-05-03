@@ -1,0 +1,59 @@
+$color-pallete-1: #454ade;
+body {
+  // background-color: white;
+}
+.header-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $color-pallete-1;
+  padding-left: 25px;
+}
+
+.hacker-list-container {
+  // position: absolute;
+  margin-top: 100px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+// .hacker-list-home {
+
+// }
+
+.top-3-box-container {
+  margin-left: 100px;
+  border: solid;
+  border-color: $color-pallete-1;
+  padding: 20px;
+  height: fit-content;
+}
+.top-3-box {
+  padding: 5px;
+  // height: 200px;
+  // flex: 1;
+  // height: min-content;
+  // width: fit-content;
+  // display: inline;
+  // flex-wrap: nowrap;
+}
+.hackerlist-user {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  // align-items: center;
+}
+.hackerlist-user-icon {
+  margin-right: 5px;
+}
+body {
+  background-color: white;
+  padding: 40px;
+  // margin
+}
+h2 {
+  color: white;
+  text-align: center;
+}

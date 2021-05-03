@@ -1,0 +1,52 @@
+$font-stack: Helvetica, sans-serif;
+$color-pallete-1: #454ade; // iris
+$color-pallete-2: #1b1f3b; // space cadet
+$color-pallete-3: #b14aed; // electric purple
+$color-pallete-4: #c874d9; // french mauve
+$color-pallete-5: #e1bbc9; // cameo pink
+
+body {
+  font: 100% $font-stack;
+  // color: $color-pallete-2;
+}
+
+.mybutton {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.mybutton-primary-1 {
+  background-color: $color-pallete-1;
+  color: white;
+}
+.mybutton-primary-2 {
+  background-color: $color-pallete-2;
+  color: white;
+  border-radius: 10px;
+  font-size: small;
+  width: max-content;
+}
+
+.text-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+}
+
+.text-input-height {
+  height: 25px;
+  margin-left: 15px;
+}
+
+.hackerlist {
+  border: solid;
+  border-color: #1b1f3b;
+}
