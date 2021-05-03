@@ -1,3 +1,4 @@
+- ## Work under progress
 - This is a full stack project. This project has 2 separate parts: frontend and backend.
 - Frontend (Client): React Web App with pagesv- Login, Signup, Home, Profile, Stats
 - Backend (Server): Node JS REST API that uses MongoDB Atlas, Express
